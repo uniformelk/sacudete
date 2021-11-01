@@ -110,6 +110,7 @@ a{
 }
 
 
+
 @media(min-width:992px){
     .img-fluid2{
         width: 30%;
@@ -598,5 +599,105 @@ footer .contacto i{
     }
     .contacto p{
         text-align: left;
+    }
+}
+
+/*Seccion 1 Conocenos*/
+.heroConocenos1{
+    background-image: url('../img/banners/banner_hero_concenos1.png');
+    min-height: 60vh;
+    height: auto;
+    background-position: top left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1rem;
+}
+.img-objetivos-mobile{
+    display: block;
+}
+.img-objetivos-desktop{
+    display: none;
+}
+.heroConocenos1 ul li{
+    color: var(--color-pink);
+}
+.heroConocenos1 ul li span{
+    color: var(--balck);
+    font-size: .8rem;
+    font-family: var(--fuente-parrafos);
+}
+.heroConocenos1 p{
+    color: var(--balck);
+}
+.color-black{
+    color: var(--balck);
+}
+@media(min-width: 768px){
+    .img-objetivos-mobile{
+        display: none;
+    }
+    .img-objetivos-desktop{
+        display: block;
+    } 
+    .heroConocenos1{
+        padding: 4rem;
+        padding-right: 0;
+        padding-top: 0rem;
+    }
+}
+
+/*Seccion 2 Conocenos*/
+.heroConocenos2{
+    background-image: url('../img/banners/banner_hero_concenos2.png');
+    min-height: 80vh;
+    height: auto;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1rem;
+}
+.heroConocenos2 .card-body{
+    background-image: url('../img/lineas.png');
+    background-size: cover;
+    border: none;
+    
+}
+
+@media(min-width: 768px){
+    .heroConocenos2{
+        padding: 4rem;
+        padding-right: 0;
+        padding-top: 0rem;
+        background-position: bottom center;
+    }
+    .heroConocenos2 .card .card-img-top{
+        margin-bottom: -4rem;
+        margin-left: 11rem;
+        max-width: 60%;
+        z-index: 2;
+    }
+    .heroConocenos2 .card-body{
+        z-index: 1;
+    }
+    .heroConocenos2 .card-1 .card-body{
+        padding: 1.5rem 0 0 1.5rem;
+    }
+    .heroConocenos2 .card-2 .card-body{
+        padding: 1.5rem 1.5rem 0 0;
+    }
+    .heroConocenos2 .card-3 .card-body{
+        padding: 0 1.5rem 1.5rem 0;
+    }
+    .heroConocenos2 .card-1 .bg-pink{
+        padding: 3.5rem 1rem 2rem 0;
+    }
+    .heroConocenos2 .card-2 .bg-pink{
+        padding: 0 1rem 3.5rem 0;
+    }
+    .heroConocenos2 .card-2 .card-img-top{
+        margin-top: -3rem;
+    }
+    .heroConocenos2 .card-body .bg-pink {
+        padding-top: 3.5rem;
     }
 }
