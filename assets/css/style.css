@@ -109,6 +109,9 @@ a{
     margin-top: 2rem;
 }
 
+.w-40{
+    width: 80%;
+}
 
 
 @media(min-width:992px){
@@ -149,6 +152,9 @@ a{
     }
     .nav-desktop{
         display: flex!important;
+    }
+    .w-40{
+        width: 40%;
     }
 }
   /*Seccion 1*/
@@ -734,12 +740,12 @@ footer .contacto i{
     background-color: var(--color-yellow)!important;
     transition: all ease 1.5s;
 }
-/*Seccion 2*/
+/*Seccion 2 Agendate*/
 .w-120{
     width: 110%;
     margin-left: -5%;
 }
-/*seccion 3*/
+/*seccion 3 Agendate*/
 .heroAgendate2{
     background-image: url('../img/banners/banner_hero_agendate2.png');
     min-height: 80vh;
@@ -769,5 +775,42 @@ footer .contacto i{
         border: 5px solid #c91577;
         margin-left: -9.5rem!important;
         z-index: 1;
+    }
+}
+
+/*Participa
+
+Seccion 1 Participa*/
+.heroParticipa{
+    background-image: url('../img/banners/banner_hero_participa.png');
+    min-height: 100vh;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1rem;
+}
+.heroParticipa{
+    height: auto;
+}
+.heroParticipa .mn-1{
+    margin-top: -2rem;
+}
+.heroParticipa form{
+    padding: 1rem 25%;
+}
+.heroParticipa .custom-select{
+    width: 100%;
+    border-radius: 1rem;
+    border: 1px solid #000;
+    font-size: 1.2rem;
+}
+.h-content{
+    height: max-content!important;
+}
+@media(min-width: 768px){
+    .heroParticipa{
+        padding: 4rem;
+        padding-top: 8rem;
     }
 }
