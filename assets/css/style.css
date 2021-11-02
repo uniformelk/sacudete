@@ -701,3 +701,73 @@ footer .contacto i{
         padding-top: 3.5rem;
     }
 }
+
+/*Agendate*/
+/*seccion 1 Agendate*/
+.heroAgendate1{
+    background-image: url('../img/banners/banner_hero_agendate1.png');
+    min-height: 80vh;
+    height: auto;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1rem;
+    padding-top: 3rem;
+}
+.heroAgendate1 .agendate{
+    margin-top: -4rem;
+}
+.heroAgendate1 form #agendate{
+    border-radius: 1rem;
+    border: 1 px solid #000;
+    
+}
+.heroAgendate1 .bg-light .agendate{
+    margin-top: -6rem;
+    width: 30%;
+}
+.btn-ligth{
+    border: 1px solid #000;
+    text-align: center;
+}
+.btn-ligth:hover{
+    background-color: var(--color-yellow)!important;
+    transition: all ease 1.5s;
+}
+/*Seccion 2*/
+.w-120{
+    width: 110%;
+    margin-left: -5%;
+}
+/*seccion 3*/
+.heroAgendate2{
+    background-image: url('../img/banners/banner_hero_agendate2.png');
+    min-height: 80vh;
+    height: auto;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1rem;
+}
+.heroAgendate2 .carousel-inner .carousel-item .border-pink{
+    border: 5px solid #c91577;
+    margin-left: 0rem!important;
+    z-index: 1;
+}
+.heroAgendate2 .carousel-inner .carousel-item .z-index-2{
+    z-index: 2;
+}
+@media(min-width:768px){
+    .heroAgendate1{
+        padding: 4rem;
+        padding-bottom: 1rem;
+    }
+    .heroAgendate2{
+        padding: 1rem 4rem;
+    }
+    .heroAgendate2 .carousel-inner .carousel-item .border-pink{
+        border: 5px solid #c91577;
+        margin-left: -9.5rem!important;
+        z-index: 1;
+    }
+}
