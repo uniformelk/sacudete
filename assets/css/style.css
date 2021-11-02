@@ -31,7 +31,7 @@
 }
 p{
     font-family: var(--fuente-parrafos);
-    font-size: .8rem;
+    font-size: 1rem;
 }
 h1, h2, h3,h4,h5,h6{
     font-family: var(--fuente-titulos);
@@ -430,6 +430,28 @@ box-shadow: -19px 25px -10px -24px rgba(253,253,253,0.52);
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 
+.hero4 .carousel-indicators button{
+    width:30px!important; 
+    height:30px!important;  
+    border-radius: 50%;
+    background-color: transparent!important;
+    border: 1px solid #000!important;
+}
+.hero4 .carousel-indicators .active{
+    background-color: #C91577!important;
+    border: 1px solid #000!important;
+
+}
+.hero4 .carousel-indicators{
+    justify-content:center!important;
+    margin-top: 2rem;
+}
+.hero4 .carousel-control-next{
+    justify-content: end;
+}
+.hero4 .carousel-control-prev{
+    justify-content: start;
+}
 @media(min-width:768px){
     .bg-2{
         display: block;
@@ -794,11 +816,9 @@ Seccion 1 Participa*/
     height: auto;
 }
 .heroParticipa .mn-1{
-    margin-top: -2rem;
+    margin-top: 2rem;
 }
-.heroParticipa form{
-    padding: 1rem 25%;
-}
+
 .heroParticipa .custom-select{
     width: 100%;
     border-radius: 1rem;
@@ -813,4 +833,40 @@ Seccion 1 Participa*/
         padding: 4rem;
         padding-top: 8rem;
     }
+    .heroParticipa .mn-1{
+        margin-top: -2rem;
+    }
 }
+
+/*Seccion 2 Participa*/
+.border-blueP{
+    border: 5px solid #3366cc;
+
+}
+.heroParticipa .seccion2{
+    padding: 1rem;
+}
+.heroParticipa .border-blueP{
+    padding: 1rem;
+    color: var(--white);
+}
+
+
+@media(min-width:768px){
+    .heroParticipa .seccion2{
+        padding: 3rem 5rem;
+    }
+    .heroParticipa .border-blueP{
+        margin-left: -3rem;
+        margin-top: -2rem;
+        margin-bottom: 2rem;
+        z-index: 1;
+        padding-top: 1rem;
+        padding-left: 5rem;
+        color: var(--white);
+    }
+    .heroParticipa .z-index-2{
+        z-index: 2;
+    }
+}
+
