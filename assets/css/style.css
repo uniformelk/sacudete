@@ -97,11 +97,11 @@ a{
     height:30px!important;  
     border-radius: 50%;
     background-color: transparent!important;
-    border: 1px solid #000!important;
+    border: 2px solid #fff!important;
 }
 .carousel-indicators .active{
-    background-color: rgba(255, 255, 255, 0.6)!important;
-    border: 1px solid #000!important;
+    background-color: #ffdc00!important;
+    border: 2px solid #fff!important;
 
 }
 .carousel-indicators{
@@ -870,3 +870,44 @@ Seccion 1 Participa*/
     }
 }
 
+/*En La Jugada
+
+Seccion1*/
+.heroEnlajugada{
+    background-image: url('../img/banners/banner_hero_enlajugada.png');
+    min-height: 100vh;
+    height: auto;
+    background-position: top left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1rem;
+}
+.heroEnlajugada .mt-6{
+    margin-top: 5rem;
+}
+.bg-gris{
+    background-color: #EDEDED;
+}
+.heroEnlajugada .border-pink{
+    border: 5px solid #c91577;
+    margin-top: 6rem;
+}
+.heroEnlajugada .mn-1{
+    margin-top: -6rem;
+    margin-left: 6rem;
+}
+.heroEnlajugada .width-3{
+    width: 20%;
+}
+.heroEnlajugada .background-personas{
+    background-image: url('../img/banners/bg-personas.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 40vh;
+}
+@media(min-width:768px){
+    .heroEnlajugada{
+        padding: 4rem;
+        padding-top: 2rem;
+    }
+}
