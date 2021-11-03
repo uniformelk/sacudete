@@ -113,7 +113,22 @@ a{
     width: 80%;
 }
 
+.m-auto{
+    margin: 1rem auto!important;
+}
 
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: #000!important;
+    border-radius: 50%;
+   width: 50px;
+   height: 50px;
+}
+.carousel-control-next-icon{
+    justify-content: end;
+}
+.carousel-control-prev-icon{
+    justify-content: start;
+}
 @media(min-width:992px){
     .img-fluid2{
         width: 30%;
@@ -124,7 +139,9 @@ a{
     h3{
         font-size: 1.5rem;
     }
-    
+    .m-auto{
+        margin: auto!important;
+    }
 }
 
 .img-logo{
@@ -173,22 +190,7 @@ a{
   .hero .carousel-inner{
     height: 70vh ;
     }
-    .enjoy-css {
-        -webkit-box-sizing: content-box;
-        -moz-box-sizing: content-box;
-        box-sizing: content-box;
-        width: max-content;
-        margin: auto;
-        height: auto;
-        padding: .8rem 1rem;
-        text-align: center;
-        -o-text-overflow: ellipsis;
-        text-overflow: ellipsis;
-        -webkit-transform: rotateX(-7.448451336700702deg) rotateY(-3.4377467707849396deg) rotateZ(-9.740282517223996deg) scaleZ(10) translateZ(10px) skewX(-20deg);
-        transform: rotateX(-7.448451336700702deg) rotateY(-3.4377467707849396deg) rotateZ(-9.740282517223996deg) scaleZ(10) translateZ(10px) skewX(-20deg);
-        -webkit-transform-origin: 60% 50% 25%;
-        transform-origin: 60% 50% 25%;
-      }
+    
       .mn-1{
         margin-top: -15px ;
         margin-right: 10px;
@@ -421,13 +423,14 @@ box-shadow: -19px 25px -10px -24px rgba(253,253,253,0.52);
 .noticias{
     border-radius: 50%;
     box-shadow: -11px -8px 8px 2px rgba(255,220,0,0.43);
+    width: 60%;
 }
 .carousel-control-prev-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
 }
 
 .carousel-control-next-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 
 .hero4 .carousel-indicators button{
@@ -440,10 +443,9 @@ box-shadow: -19px 25px -10px -24px rgba(253,253,253,0.52);
 .hero4 .carousel-indicators .active{
     background-color: #C91577!important;
     border: 1px solid #000!important;
-
 }
 .hero4 .carousel-indicators{
-    justify-content:center!important;
+    justify-content:end!important;
     margin-top: 2rem;
 }
 .hero4 .carousel-control-next{
@@ -460,6 +462,13 @@ box-shadow: -19px 25px -10px -24px rgba(253,253,253,0.52);
         margin-left: -18rem;
         z-index: 3;
         margin-bottom: 4rem;
+    }
+    .noticias{
+        width: 70%;
+    }
+    .hero4 .carousel-indicators{
+        justify-content:center!important;
+        margin-top: 2rem;
     }
 }
 /*Seccion 5*/
@@ -504,7 +513,7 @@ box-shadow: -19px 25px -10px -24px rgba(253,253,253,0.52);
     padding: 1rem;
 }
 .mapa{
-    padding: 2rem 5rem;;
+    padding: 1rem 1rem;;
 }
 .border{
  border: 2px solid #000!important;   
@@ -535,6 +544,9 @@ box-shadow: -19px 25px -10px -24px rgba(253,253,253,0.52);
     .hero6 .cifra h1{
         font-size: 2rem;
         
+    }
+    .mapa{
+        padding: 2rem 5rem;;
     }
 }
 .hero7{
@@ -752,7 +764,7 @@ footer .contacto i{
 }
 .heroAgendate1 .bg-light .agendate{
     margin-top: -6rem;
-    width: 30%;
+    width: 50%;
 }
 .btn-ligth{
     border: 1px solid #000;
@@ -766,6 +778,9 @@ footer .contacto i{
 .w-120{
     width: 110%;
     margin-left: -5%;
+}
+.heroAgendate1 .carousel-indicators{
+    bottom: 30px;
 }
 /*seccion 3 Agendate*/
 .heroAgendate2{
@@ -785,6 +800,12 @@ footer .contacto i{
 .heroAgendate2 .carousel-inner .carousel-item .z-index-2{
     z-index: 2;
 }
+.heroAgendate2 .carousel-indicators button{
+    border: 1px solid #000!important;
+}
+.heroAgendate2 .carousel-indicators{
+    justify-content: end!important;
+}
 @media(min-width:768px){
     .heroAgendate1{
         padding: 4rem;
@@ -795,8 +816,19 @@ footer .contacto i{
     }
     .heroAgendate2 .carousel-inner .carousel-item .border-pink{
         border: 5px solid #c91577;
-        margin-left: -9.5rem!important;
+        margin-left: -11rem!important;
         z-index: 1;
+    }
+    .heroAgendate1 .bg-light .agendate{
+        margin-top: -6rem;
+        width: 30%;
+    }
+    .heroAgendate1 .carousel-indicators{
+        bottom: 10px;
+    }
+    .heroAgendate2 .carousel-indicators{
+        bottom: 60px;
+        justify-content: start!important;
     }
 }
 
@@ -909,5 +941,46 @@ Seccion1*/
     .heroEnlajugada{
         padding: 4rem;
         padding-top: 2rem;
+    }
+}
+
+/*Seccion 3*/
+.heroEnlajugada .seccion3 .card-body{
+    z-index: 1;
+    border: none;
+    background-image: url(../img/lineas.png);
+    background-size: cover;
+}
+.heroEnlajugada .seccion3 .card-2 .card-img-top{
+    margin: 0;
+}
+@media(min-width:768px){
+    .heroEnlajugada .seccion3 .card .card-img-top{
+        margin-bottom: -4rem;
+        margin-left: 11rem;
+        max-width: 60%;
+        z-index: 2;
+    }
+    
+    .heroEnlajugada .seccion3 .card-2 .card-body{
+        padding: 1.5rem 1.5rem 0 0;
+    }
+    .heroEnlajugada .seccion3 .card-3 .card-body{
+        padding: 0 1.5rem 1.5rem 0;
+    }
+    
+    .heroEnlajugada .seccion3 .card-2 .bg-blueP{
+        padding: 0 1rem 3.5rem 0;
+    }
+    .heroEnlajugada .seccion3 .card-2 .card-img-top{
+        margin-top: -3rem;
+    }
+    
+    .heroEnlajugada .seccion3 .card-body .bg-blueP {
+        padding-top: 3.5rem;
+        padding-bottom: 1rem;
+    }
+    .heroEnlajugada .seccion3 .card-3 .card-body .bg-blueP{
+        padding-top: 4rem;
     }
 }
