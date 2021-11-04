@@ -7,6 +7,10 @@
     font-family: "work-sans-black";
     src: url("../fonts/WorkSans-Black.otf");
 }
+@font-face {
+    font-family: "desryel";
+    src: url("../fonts/DESYREL.TTF");
+}
 
 /*Globales*/
 :root{
@@ -81,6 +85,9 @@ h6{
     color: var(--color-orange);
     font-weight: 700;
     
+}
+.bg-gray{
+    background-color: #DBDBDB;
 }
 .nav-link{
     font-weight: 700;
@@ -1053,42 +1060,131 @@ Seccion1*/
 }
 
 /*Seccion 3*/
-.heroEnlajugada .seccion3 .card-body{
-    z-index: 1;
-    border: none;
-    background-image: url(../img/lineas.png);
+.heroEnlajugada2{
+    background-image: url('../img/banners/banner_hero_enlajugada2.png');
+    min-height: 100vh;
+    height: auto;
+    background-position: top left;
     background-size: cover;
+    background-repeat: repeat;
+    padding: 1rem;
 }
-.heroEnlajugada .seccion3 .card-2 .card-img-top{
-    margin: 0;
+
+.bg-acordeon1{
+    background-image: url('../img/acordeon/acordeon1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+.bg-acordeon2{
+    background-image: url('../img/acordeon/acordeon2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+.bg-acordeon3{
+    background-image: url('../img/acordeon/acordeon3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+.bg-acordeon4{
+    background-image: url('../img/acordeon/acordeon4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+.bg-acordeon5{
+    background-image: url('../img/acordeon/acordeon5.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.accordion .titulo h5{
+    color: #fff!important;
+    padding: 2rem!important;
+}
+.accordion .parrafo p{
+    color: #000!important;
+    margin: 1.8rem;
+    padding: 1rem;
+}
+.accordion-button{
+    padding: 0!important;
+}
+.bg-transparent{
+    background-color: transparent!important;
+}
+.accordion-item{
+    margin-top: 2rem;
+}
+.accordion-button::after{
+    width: 2rem;
+    background-image: url('../img/botones/boton.png')!important;
+}
+
+.bg-yellow-importante{
+    background-color: #ffdc00!important;
+}
+.heroEnlajugada2 .border-blueP{
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    z-index: 1;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+.heroEnlajugada2 .z-index-2{
+    z-index: 2;
+}
+.bg-greenS-importante{
+    background-color: var(--color-greenS)!important;
+}
+.bg-blueS{
+    background-color: #3380C2;
+}
+.bg-blueS-importante{
+    background-color: #3380C2!important;
+}
+.bg-orange-importante{
+    background-color: var(--color-orange)!important;
+}
+.bg-greenP-importante{
+    background-color: var(--color-greenP)!important;
+}
+.border-left-ligth{
+    margin: 1rem 0;
+    border-left: 3px solid #fff;
+    font-family: 'desryel';
+    font-size: 1.8rem;
 }
 @media(min-width:768px){
-    .heroEnlajugada .seccion3 .card .card-img-top{
-        margin-bottom: -4rem;
-        margin-left: 11rem;
-        max-width: 60%;
-        z-index: 2;
+   
+    .heroEnlajugada2 .border-blueP{
+        margin-left: -3rem;
+        margin-top: 2rem;
+        margin-bottom: -2rem;
+        z-index: 1;
+        padding-top: 1rem;
+        padding-left: 5rem;
     }
-    
-    .heroEnlajugada .seccion3 .card-2 .card-body{
-        padding: 1.5rem 1.5rem 0 0;
-    }
-    .heroEnlajugada .seccion3 .card-3 .card-body{
-        padding: 0 1.5rem 1.5rem 0;
-    }
-    
-    .heroEnlajugada .seccion3 .card-2 .bg-blueP{
-        padding: 0 1rem 3.5rem 0;
-    }
-    .heroEnlajugada .seccion3 .card-2 .card-img-top{
-        margin-top: -3rem;
-    }
-    
-    .heroEnlajugada .seccion3 .card-body .bg-blueP {
-        padding-top: 3.5rem;
-        padding-bottom: 1rem;
-    }
-    .heroEnlajugada .seccion3 .card-3 .card-body .bg-blueP{
-        padding-top: 4rem;
+}
+
+/*Inspirate
+Seccion 1*/
+.heroInspirate{
+    background-image: url('../img/banners/heroInspirate.png');
+    min-height: 100vh;
+    height: auto;
+    background-position: top left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1rem;
+}
+
+@media(min-width:768px){
+    .heroInspirate{
+        padding: 4rem;
+        padding-top: 2rem;
     }
 }
