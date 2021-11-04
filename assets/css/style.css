@@ -163,6 +163,9 @@ a{
 .nav-desktop{
     display: none!important;
 }
+.w-md-75{
+    width: 100%!important;
+}
 @media(min-width: 768px){
     .nav-mobile{
         display: none!important;
@@ -173,10 +176,13 @@ a{
     .w-40{
         width: 40%;
     }
+    .w-md-75{
+        width: 75%!important;
+    }
 }
   /*Seccion 1*/
   .hero{
-      background-image: url('../img/banners/banner_hero_home.png');
+      background-image: url('../img/banners/Inicio.png');
       min-height: 70vh;
       height: auto;
       background-position: center left;
@@ -188,25 +194,51 @@ a{
       height: auto;
   }
   .hero .carousel-inner{
-    height: 70vh ;
+    min-height: 70vh ;
     }
     
-      .mn-1{
+    .mn-1{
         margin-top: -15px ;
         margin-right: 10px;
     }
     .width-1{
         width: 100%;
     }
+    .hero .mn-1{
+        margin-top: 0;
+    }
+    .hero .carousel-control-next, .hero .carousel-control-prev{
+        align-items: end;
+        bottom: 10px;
+    }
+    .hero .carousel-indicators{
+        justify-content: center!important;
+    }
+    .border-orange{
+        border: 5px solid #eb6608;
+    }
+    .bg-light2{
+        background-color: #ededed;
+    }
     @media(min-width:768px){
         .width-1{
             width: 50%;
+        }
+        .hero .mn-1{
+            margin-top: -8rem
+        }
+        .hero .carousel-control-next, .hero .carousel-control-prev{
+            align-items: center;
+            bottom: 0;
+        }
+        .hero .carousel-indicators{
+            justify-content: start!important;
         }
     }
 
     /*Seccion 2*/
   .hero2{
-    background-image: url('../img/banners/banner_hero_home2.png');
+    background-image: url('../img/banners/Sacúdete.png');
     min-height: 100vh;
     height: auto;
     background-position: top center;
@@ -272,7 +304,7 @@ box-shadow: -19px 25px -10px -24px rgba(0,0,0,0.62);
 
 /*Seccion 3*/
 .hero3{
-    background-image: url('../img/banners/banner_hero_home3.png');
+    background-image: url('../img/banners/Oportunidades que sacuden_v.png');
     min-height: 100vh;
     height: auto;
     background-position: top left;
@@ -424,6 +456,7 @@ box-shadow: -19px 25px -10px -24px rgba(253,253,253,0.52);
     border-radius: 50%;
     box-shadow: -11px -8px 8px 2px rgba(255,220,0,0.43);
     width: 60%;
+
 }
 .carousel-control-prev-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
@@ -473,7 +506,7 @@ box-shadow: -19px 25px -10px -24px rgba(253,253,253,0.52);
 }
 /*Seccion 5*/
 .hero5{
-    background-image: url('../img/banners/banner_hero_home5.png');
+    background-image: url('../img/banners/Está bacano_v.png');
     min-height: 100vh;
     height: auto;
     background-position: top left;
@@ -781,6 +814,27 @@ footer .contacto i{
 }
 .heroAgendate1 .carousel-indicators{
     bottom: 30px;
+    justify-content: center!important;
+}
+.heroAgendate1 #carouselExampleIndicators .carousel-control-next{
+    right: 50px ;
+}
+.heroAgendate1 #carouselExampleIndicators .carousel-control-prev{
+    left: 50px ;
+}
+.heroAgendate1 .carousel-control-next-icon, .heroAgendate1 .carousel-control-prev-icon{
+    height: 30px;
+}
+@media(min-width:768px){
+    .heroAgendate1 .carousel-indicators{
+        justify-content: start!important;
+    }
+    .heroAgendate1 #carouselExampleIndicators .carousel-control-next{
+        left: 90px ;
+    }
+    .heroAgendate1 #carouselExampleIndicators .carousel-control-prev{
+        left: -50px ;
+    }
 }
 /*seccion 3 Agendate*/
 .heroAgendate2{
@@ -805,6 +859,16 @@ footer .contacto i{
 }
 .heroAgendate2 .carousel-indicators{
     justify-content: end!important;
+}
+.heroAgendate2 #carouselIndicators, .carousel-inner, .carousel-item{
+    min-height: 60vh;
+}
+.heroAgendate2 .carousel-control-next{
+    justify-content: end;
+}
+.heroAgendate2 .carousel-control-prev{
+    justify-content: start;
+    z-index:10;
 }
 @media(min-width:768px){
     .heroAgendate1{
@@ -837,19 +901,38 @@ footer .contacto i{
 Seccion 1 Participa*/
 .heroParticipa{
     background-image: url('../img/banners/banner_hero_participa.png');
-    min-height: 100vh;
+    min-height: 70vh;
     height: auto;
-    background-position: center;
+    background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
     padding: 1rem;
 }
+.bg-participaPersonas{
+    background-image: none;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 1rem;
+    padding-top: 3rem;
+    min-height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
 .heroParticipa{
     height: auto;
 }
-.heroParticipa .mn-1{
-    margin-top: 2rem;
+.bg-participaPersonas .mn-1{
+   position: relative;
+   bottom: -20px;
 }
+.bg-participaPersonas .mn-2{
+    margin-top: -5rem;
+    
+}
+
+
 
 .heroParticipa .custom-select{
     width: 100%;
@@ -863,32 +946,53 @@ Seccion 1 Participa*/
 @media(min-width: 768px){
     .heroParticipa{
         padding: 4rem;
+        padding-top: 0rem;
+        background-position: center;
+        min-height: 100vh;
+    }
+    .bg-participaPersonas .mn-1{
+        position: relative;
+        bottom: -20rem;
+     }
+     .bg-participaPersonas .mn-2{
+         margin-top: -5rem;
+         
+     }
+     .bg-participaPersonas{
+        background-image: url('../img/banners/bg-participaPersona.png');
         padding-top: 8rem;
     }
-    .heroParticipa .mn-1{
-        margin-top: -2rem;
-    }
+    
 }
 
 /*Seccion 2 Participa*/
+.heroParticipa2{
+    background-image: url('../img/banners/banner_hero_participa2.png');
+    min-height: 100vh;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1rem;
+}
 .border-blueP{
     border: 5px solid #3366cc;
 
 }
-.heroParticipa .seccion2{
+.heroParticipa2 .seccion2{
     padding: 1rem;
 }
-.heroParticipa .border-blueP{
+.heroParticipa2 .border-blueP{
     padding: 1rem;
     color: var(--white);
 }
 
 
 @media(min-width:768px){
-    .heroParticipa .seccion2{
+    .heroParticipa2 .seccion2{
         padding: 3rem 5rem;
     }
-    .heroParticipa .border-blueP{
+    .heroParticipa2 .border-blueP{
         margin-left: -3rem;
         margin-top: -2rem;
         margin-bottom: 2rem;
@@ -897,8 +1001,12 @@ Seccion 1 Participa*/
         padding-left: 5rem;
         color: var(--white);
     }
-    .heroParticipa .z-index-2{
+    .heroParticipa2 .z-index-2{
         z-index: 2;
+    }
+    .heroParticipa2{
+        padding: 1rem 4rem 4rem 4rem;
+        
     }
 }
 
