@@ -290,6 +290,10 @@ box-shadow: -19px 25px -10px -24px rgba(0,0,0,0.62);
     background-color: var(--color-yellow)!important;
     transition: all ease 1.5s;
 }
+.btn_hover:hover {
+    background-color: var(--color-yellow)!important;
+    transition: all ease 1.5s;
+}
 .m-6{
     margin-top: 10rem!important;
 }
@@ -1398,5 +1402,34 @@ Seccion 1*/
     }
     .heroInspirate .btn-posteados .w-25{
         width: 25%!important;
+    }
+}
+
+.heroEnlajugada #carouselExampleControls2 .carousel-control-next-icon, .heroEnlajugada #carouselExampleControls2 .carousel-control-prev-icon{
+    height: 50px!important;
+}
+.heroEnlajugada .carousel-indicators{
+    bottom: 0;
+    justify-content: center!important;
+}
+.heroEnlajugada #carouselExampleIndicators .carousel-control-next{
+    right: 50px ;
+}
+.heroEnlajugada #carouselExampleIndicators .carousel-control-prev{
+    left: 50px ;
+}
+.heroEnlajugada .carousel-control-next-icon, .heroEnlajugada .carousel-control-prev-icon{
+    height: 30px;
+}
+
+@media(min-width:768px){
+    .heroEnlajugada .carousel-indicators{
+        justify-content: start!important;
+    }
+    .heroEnlajugada #carouselExampleIndicators .carousel-control-next{
+        left: 90px ;
+    }
+    .heroEnlajugada #carouselExampleIndicators .carousel-control-prev{
+        left: -50px ;
     }
 }
