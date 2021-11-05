@@ -1170,13 +1170,161 @@ Seccion1*/
     }
 }
 
+/*Enfocate
+Seccion 1*/
+.heroEnfocate{
+    background-image: url('../img/banners/heroEnfocate.png');
+    min-height: 100vh;
+    height: auto;
+    background-position: center left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1rem;
+}
+
+@media(min-width:768px){
+    .heroEnfocate{
+        padding: 4rem;
+        padding-top: 2rem;
+    }
+}
+
+/*seccion 3*/
+.heroEnfocate .w-85{
+    width: 85%;
+}
+.heroEnfocate #carouselExampleControls2 .carousel-control-next-icon, .heroEnfocate #carouselExampleControls2 .carousel-control-prev-icon{
+    height: 50px!important;
+}
+
+.heroEnfocate .carousel-indicators{
+    bottom: 30px;
+    justify-content: center!important;
+}
+.heroEnfocate #carouselExampleIndicators .carousel-control-next{
+    right: 50px ;
+}
+.heroEnfocate #carouselExampleIndicators .carousel-control-prev{
+    left: 50px ;
+}
+.heroEnfocate .carousel-control-next-icon, .heroEnfocate .carousel-control-prev-icon{
+    height: 30px;
+}
+.heroEnfocate .btn-posteados .w-25{
+    width: 100%!important;
+}
+
+@media(min-width:768px){
+    .heroEnfocate .carousel-indicators{
+        justify-content: start!important;
+    }
+    .heroEnfocate #carouselExampleIndicators .carousel-control-next{
+        left: 90px ;
+    }
+    .heroEnfocate #carouselExampleIndicators .carousel-control-prev{
+        left: -50px ;
+    }
+    .titulo-posteados{
+        position: relative;
+        left: 50px;
+        top: 50px;
+        margin: 0;
+    }
+    .heroEnfocate .btn-posteados .w-25{
+        width: 25%!important;
+    }
+}
+
+/*Transformate
+Seccion 1*/
+.heroTransformate{
+    background-image: url('../img/banners/heroTransformate.png');
+    min-height: 100vh;
+    height: auto;
+    background-position: center left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1rem;
+}
+
+@media(min-width:768px){
+    .heroTransformate{
+        padding: 4rem;
+        padding-top: 2rem;
+    }
+}
+
+/*seccion 3*/
+.heroTransformate2{
+    background-image: url('../img/banners/heroTransformate2.png');
+    min-height: 100vh;
+    height: auto;
+    background-position: top center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 1rem;
+}
+.titulo-posteados{
+    position: relative;
+    margin: auto;
+}
+.heroTransformate .w-85{
+    width: 85%;
+}
+.heroTransformate #carouselExampleControls2 .carousel-control-next-icon, .heroTransformate #carouselExampleControls2 .carousel-control-prev-icon{
+    height: 50px!important;
+}
+@media(min-width:768px){
+    .heroTransformate2{
+        padding: 4rem;
+    }
+}
+
+.heroTransformate .carousel-indicators{
+    bottom: 30px;
+    justify-content: center!important;
+}
+.heroTransformate #carouselExampleIndicators .carousel-control-next{
+    right: 50px ;
+}
+.heroTransformate #carouselExampleIndicators .carousel-control-prev{
+    left: 50px ;
+}
+.heroTransformate .carousel-control-next-icon, .heroTransformate .carousel-control-prev-icon{
+    height: 30px;
+}
+.heroTransformate .btn-posteados .w-25{
+    width: 100%!important;
+}
+
+@media(min-width:768px){
+    .heroTransformate .carousel-indicators{
+        justify-content: start!important;
+    }
+    .heroTransformate #carouselExampleIndicators .carousel-control-next{
+        left: 90px ;
+    }
+    .heroTransformate #carouselExampleIndicators .carousel-control-prev{
+        left: -50px ;
+    }
+    .titulo-posteados{
+        position: relative;
+        left: 50px;
+        top: 50px;
+        margin: 0;
+    }
+    .heroTransformate .btn-posteados .w-25{
+        width: 25%!important;
+    }
+}
+
 /*Inspirate
 Seccion 1*/
 .heroInspirate{
     background-image: url('../img/banners/heroInspirate.png');
     min-height: 100vh;
     height: auto;
-    background-position: top left;
+    background-position: center left;
     background-size: cover;
     background-repeat: no-repeat;
     padding: 1rem;
@@ -1186,5 +1334,69 @@ Seccion 1*/
     .heroInspirate{
         padding: 4rem;
         padding-top: 2rem;
+    }
+}
+
+/*seccion 3*/
+.heroInspirate2{
+    background-image: url('../img/banners/heroInspirate2.png');
+    min-height: 100vh;
+    height: auto;
+    background-position: top center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 1rem;
+}
+.titulo-posteados{
+    position: relative;
+    margin: auto;
+}
+.heroInspirate .w-85{
+    width: 85%;
+}
+.heroInspirate #carouselExampleControls2 .carousel-control-next-icon, .heroInspirate #carouselExampleControls2 .carousel-control-prev-icon{
+    height: 50px!important;
+}
+@media(min-width:768px){
+    .heroInspirate2{
+        padding: 4rem;
+    }
+}
+
+.heroInspirate .carousel-indicators{
+    bottom: 30px;
+    justify-content: center!important;
+}
+.heroInspirate #carouselExampleIndicators .carousel-control-next{
+    right: 50px ;
+}
+.heroInspirate #carouselExampleIndicators .carousel-control-prev{
+    left: 50px ;
+}
+.heroInspirate .carousel-control-next-icon, .heroInspirate .carousel-control-prev-icon{
+    height: 30px;
+}
+.heroInspirate .btn-posteados .w-25{
+    width: 100%!important;
+}
+
+@media(min-width:768px){
+    .heroInspirate .carousel-indicators{
+        justify-content: start!important;
+    }
+    .heroInspirate #carouselExampleIndicators .carousel-control-next{
+        left: 90px ;
+    }
+    .heroInspirate #carouselExampleIndicators .carousel-control-prev{
+        left: -50px ;
+    }
+    .titulo-posteados{
+        position: relative;
+        left: 50px;
+        top: 50px;
+        margin: 0;
+    }
+    .heroInspirate .btn-posteados .w-25{
+        width: 25%!important;
     }
 }
