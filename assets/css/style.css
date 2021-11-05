@@ -703,7 +703,7 @@ footer .contacto i{
 }
 .heroConocenos1 ul li span{
     color: var(--balck);
-    font-size: .8rem;
+    font-size: 1rem;
     font-family: var(--fuente-parrafos);
 }
 .heroConocenos1 p{
