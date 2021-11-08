@@ -1532,7 +1532,7 @@ html,
         margin-bottom: -2rem;
     }
       .heroSacudeteTv1 .video{
-          min-height: 60vh;
+          min-height: 40vh;
       }
       .heroSacudeteTv1 .swiper-button-next{
           display: none;
@@ -1547,7 +1547,7 @@ html,
           height: 100%;
       }
       .heroSacudeteTv1 .swiper .boton:hover{
-        transform: scale(1, 1.1);
+        transform: scale(1.1, 1.1);
         transition: all ease 1s;
       }
       @media(min-width:768px){
@@ -1573,3 +1573,271 @@ html,
             font-weight: bold;
           }
       }
+
+/*SEccion 2*/
+.heroSacudeteTv2{
+    background-image: url('../img/banners/banner_sacudeteTV2.png');
+    min-height: 100vh;
+    height: auto;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1rem;
+  }
+  .heroSacudeteTv2 .z-index-2{
+      z-index: 2;
+  }
+  .heroSacudeteTv2 .rombo {
+    background-color: rgba(255, 5255, 255, .5);
+    text-align: center;
+    padding: 2rem;
+    z-index: 1;
+    font-weight: bold;
+  }
+  .heroSacudeteTv2 .mn-1{
+    margin-right: 0rem;
+    margin-bottom: -2rem;
+}
+  .heroSacudeteTv2 .video{
+      min-height: 40vh;
+  }
+  .heroSacudeteTv2 .swiper-button-next{
+      display: none;
+  }
+  .heroSacudeteTv2 .swiper-button-prev{
+      display: none;
+  }
+  .heroSacudeteTv2 .swiper-pagination{
+      display: none;
+  }
+  .heroSacudeteTv2 .swiper-slide a{
+      height: 100%;
+  }
+  .heroSacudeteTv2 .swiper .boton:hover{
+    transform: scale(1.1, 1.1);
+    transition: all ease 1s;
+  }
+  @media(min-width:768px){
+      .heroSacudeteTv2{
+          padding: 4rem;
+      }
+      .heroSacudeteTv2 .mn-1{
+          margin-right: -2rem;
+          margin-bottom: 0rem;
+      }
+      .heroSacudeteTv2 .rombo {
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+        background-color: rgba(255, 5255, 255, .5);
+        text-align: center;
+        -o-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+        -webkit-transform:    skewX(-20deg);
+        transform:    skewX(-20deg);
+        padding: 2rem;
+        z-index: 1;
+        font-weight: bold;
+      }
+  }
+
+  /*SEccion 3*/
+.heroSacudeteTv3{
+    background-image: url('../img/banners/banner_sacudeteTV3.png');
+    min-height: 100vh;
+    height: auto;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1rem;
+  }
+  .heroSacudeteTv3 .z-index-2{
+      z-index: 2;
+  }
+  .heroSacudeteTv3 .rombo {
+    background-color: rgba(255, 5255, 255, .5);
+    text-align: center;
+    padding: 2rem;
+    z-index: 1;
+    font-weight: bold;
+  }
+  .heroSacudeteTv3 .mn-1{
+    margin-right: 0rem;
+    margin-bottom: -2rem;
+}
+  .heroSacudeteTv3 .video{
+      min-height: 40vh;
+  }
+  .heroSacudeteTv3 .swiper-button-next{
+      display: none;
+  }
+  .heroSacudeteTv3 .swiper-button-prev{
+      display: none;
+  }
+  .heroSacudeteTv3 .swiper-pagination{
+      display: none;
+  }
+  .heroSacudeteTv3 .swiper-slide a{
+      height: 100%;
+  }
+  .heroSacudeteTv3 .swiper .boton:hover{
+    transform: scale(1.1, 1.1);
+    transition: all ease 1s;
+  }
+  @media(min-width:768px){
+      .heroSacudeteTv3{
+          padding: 4rem;
+      }
+      .heroSacudeteTv3 .mn-1{
+          margin-right: -2rem;
+          margin-bottom: 0rem;
+      }
+      .heroSacudeteTv3 .rombo {
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+        background-color: rgba(255, 5255, 255, .5);
+        text-align: center;
+        -o-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+        -webkit-transform:    skewX(-20deg);
+        transform:    skewX(-20deg);
+        padding: 2rem;
+        z-index: 1;
+        font-weight: bold;
+      }
+  }
+
+   /*SEccion 3*/
+.heroSacudeteTv4{
+    background-image: url('../img/banners/banner_sacudeteTV4.png');
+    min-height: 100vh;
+    height: auto;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1rem;
+  }
+  .heroSacudeteTv4 .z-index-2{
+      z-index: 2;
+  }
+  .heroSacudeteTv4 .rombo {
+    background-color: rgba(255, 5255, 255, .5);
+    text-align: center;
+    padding: 2rem;
+    z-index: 1;
+    font-weight: bold;
+  }
+  .heroSacudeteTv4 .mn-1{
+    margin-right: 0rem;
+    margin-bottom: -2rem;
+}
+  .heroSacudeteTv4 .video{
+      min-height: 40vh;
+  }
+  .heroSacudeteTv4 .swiper-button-next{
+      display: none;
+  }
+  .heroSacudeteTv4 .swiper-button-prev{
+      display: none;
+  }
+  .heroSacudeteTv4 .swiper-pagination{
+      display: none;
+  }
+  .heroSacudeteTv4 .swiper-slide a{
+      height: 100%;
+  }
+  .heroSacudeteTv4 .swiper .boton:hover{
+    transform: scale(1.1, 1.1);
+    transition: all ease 1s;
+  }
+  @media(min-width:768px){
+      .heroSacudeteTv4{
+          padding: 4rem;
+      }
+      .heroSacudeteTv4 .mn-1{
+          margin-right: -2rem;
+          margin-bottom: 0rem;
+      }
+      .heroSacudeteTv4 .rombo {
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+        background-color: rgba(255, 5255, 255, .5);
+        text-align: center;
+        -o-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+        -webkit-transform:    skewX(-20deg);
+        transform:    skewX(-20deg);
+        padding: 2rem;
+        z-index: 1;
+        font-weight: bold;
+      }
+  }
+
+    /*SEccion 3*/
+.heroSacudeteTv5{
+    background-image: url('../img/banners/banner_sacudeteTV5.png');
+    min-height: 100vh;
+    height: auto;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1rem;
+  }
+  .heroSacudeteTv5 .z-index-2{
+      z-index: 2;
+  }
+  .heroSacudeteTv5 .rombo {
+    background-color: rgba(255, 5255, 255, .5);
+    text-align: center;
+    padding: 2rem;
+    z-index: 1;
+    font-weight: bold;
+  }
+  .heroSacudeteTv5 .mn-1{
+    margin-right: 0rem;
+    margin-bottom: -2rem;
+}
+  .heroSacudeteTv5 .video{
+      min-height: 40vh;
+  }
+  .heroSacudeteTv5 .swiper-button-next{
+      display: none;
+  }
+  .heroSacudeteTv5 .swiper-button-prev{
+      display: none;
+  }
+  .heroSacudeteTv5 .swiper-pagination{
+      display: none;
+  }
+  .heroSacudeteTv5 .swiper-slide a{
+      height: 100%;
+  }
+  .heroSacudeteTv5 .swiper .boton:hover{
+    transform: scale(1.1, 1.1);
+    transition: all ease 1s;
+  }
+  @media(min-width:768px){
+      .heroSacudeteTv5{
+          padding: 4rem;
+      }
+      .heroSacudeteTv5 .mn-1{
+          margin-right: -2rem;
+          margin-bottom: 0rem;
+      }
+      .heroSacudeteTv5 .rombo {
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+        background-color: rgba(255, 5255, 255, .5);
+        text-align: center;
+        -o-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+        -webkit-transform:    skewX(-20deg);
+        transform:    skewX(-20deg);
+        padding: 2rem;
+        z-index: 1;
+        font-weight: bold;
+      }
+  }
