@@ -621,7 +621,7 @@ box-shadow: -19px 25px -10px -24px rgba(253,253,253,0.52);
     background-position: top left;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 4rem;
+    padding: 1rem;
 }
 .parceros{
     display: flex;
@@ -636,6 +636,9 @@ box-shadow: -19px 25px -10px -24px rgba(253,253,253,0.52);
 @media(min-width: 768px){
     .parceros .img-parceros{
         width: 10%;
+    }
+    .hero8{
+        padding: 4rem;
     }
 }
 /*Footer*/
@@ -1433,3 +1436,140 @@ Seccion 1*/
         left: -50px ;
     }
 }
+
+html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+
+      body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: end;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .desktop{
+          display: none;
+      }
+      .mobile{
+          display: block;
+      }
+      @media(min-width:768px){
+          .desktop{
+              display: block;
+          }
+          .mobile{
+              display: none;
+          }
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      map{
+          cursor: pointer;
+      }
+      #exampleModal .modal-content{
+          background-color: var(--color-blueS);
+          color: var(--white);
+      }
+
+      /*Sacudete TV
+      Seccion 1*/
+      .heroSacudeteTv1{
+        background-image: url('../img/banners/banner_sacudeteTV1.png');
+        min-height: 100vh;
+        height: auto;
+        background-position: top center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 1rem;
+      }
+      .heroSacudeteTv1 .z-index-2{
+          z-index: 2;
+      }
+      .heroSacudeteTv1 .rombo {
+        background-color: rgba(255, 5255, 255, .5);
+        text-align: center;
+        padding: 2rem;
+        z-index: 1;
+        font-weight: bold;
+      }
+      .heroSacudeteTv1 .mn-1{
+        margin-right: 0rem;
+        margin-bottom: -2rem;
+    }
+      .heroSacudeteTv1 .video{
+          min-height: 60vh;
+      }
+      .heroSacudeteTv1 .swiper-button-next{
+          display: none;
+      }
+      .heroSacudeteTv1 .swiper-button-prev{
+          display: none;
+      }
+      .heroSacudeteTv1 .swiper-pagination{
+          display: none;
+      }
+      .heroSacudeteTv1 .swiper-slide a{
+          height: 100%;
+      }
+      .heroSacudeteTv1 .swiper .boton:hover{
+        transform: scale(1, 1.1);
+        transition: all ease 1s;
+      }
+      @media(min-width:768px){
+          .heroSacudeteTv1{
+              padding: 4rem;
+          }
+          .heroSacudeteTv1 .mn-1{
+              margin-right: -2rem;
+              margin-bottom: 0rem;
+          }
+          .heroSacudeteTv1 .rombo {
+            -webkit-box-sizing: content-box;
+            -moz-box-sizing: content-box;
+            box-sizing: content-box;
+            background-color: rgba(255, 5255, 255, .5);
+            text-align: center;
+            -o-text-overflow: ellipsis;
+            text-overflow: ellipsis;
+            -webkit-transform:    skewX(-20deg);
+            transform:    skewX(-20deg);
+            padding: 2rem;
+            z-index: 1;
+            font-weight: bold;
+          }
+      }

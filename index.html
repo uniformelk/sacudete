@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sacudete - ICBF</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://kit.fontawesome.com/a80406641e.js" crossorigin="anonymous"></script>
 </head>
@@ -443,7 +444,29 @@
           <div class="col-12 col-md-5 text-center">
             <img src="assets/img/parchado.png" alt="" class="width-1">
             <div class="mapa">
-              <img src="assets/img/mapa.png" alt="Mapa Colombia" class="img-fluid">
+              <img src="assets/img/mapa.png" usemap="#image_map" class="img-fluid">
+              <map name="image_map">
+                <area alt="Mapa Region 1" title="Mapa Region 1" id="mapa1"coords="57,25,27" shape="circle">
+                <area alt="Mapa Region 2" title="Mapa Region 2" id="mapa2"coords="132,202,23" shape="circle">
+                <area alt="Mapa Region 3" title="Mapa Region 3" id="mapa3"coords="105,236,21" shape="circle">
+                <area alt="Mapa Region 4" title="Mapa Region 4" id="mapa4"coords="102,286,19" shape="circle">
+                <area alt="Mapa Region 5" title="Mapa Region 5" id="mapa5"coords="118,344,28" shape="circle">
+                <area alt="Mapa Region 6" title="Mapa Region 6" id="mapa6"coords="61,358,24" shape="circle">
+              </map>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel"></h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body" id="modalText">
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div class="col-12 col-md-7 pt-5 px-0 px-md-5">
@@ -479,30 +502,34 @@
     <div class="hero8">
       <div class="contenido p-4">
         <img src="assets/img/parceros.png" alt="" class="width-3">
-        <div>
-          <div class="parceros">
-            <div class="img-parceros">
-              <img src="assets/img/logos/innpulsa_logo.png" alt="Logo Innpulsa" class="img-fluid">
-            </div>
-            <div class="img-parceros">
-              <img src="assets/img/logos/mintrabajo_logo.png" alt="Logo Innpulsa" class="img-fluid">
-            </div>
-            <div class="img-parceros">
-              <img src="assets/img/logos/mintic_logo.png" alt="Logo Innpulsa" class="img-fluid">
-            </div>
-            <div class="img-parceros">
-              <img src="assets/img/logos/usaid_logo.png" alt="Logo Innpulsa" class="img-fluid">
-            </div>
-            <div class="img-parceros">
-              <img src="assets/img/logos/pnud.logo.png" alt="Logo Innpulsa" class="img-fluid">
-            </div>
-            <div class="img-parceros">
-              <img src="assets/img/logos/bid_logo.png" alt="Logo Innpulsa" class="img-fluid">
-            </div>
-            <div class="img-parceros">
-              <img src="assets/img/logos/sena_logo.png" alt="Logo Innpulsa" class="img-fluid">
-            </div>
+        <div class="swiper mySwiper desktop">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="assets/img/logos/innpulsa_logo.png" alt="Logo Innpulsa" class="img-fluid"></div>
+            <div class="swiper-slide"><img src="assets/img/logos/mintrabajo_logo.png" alt="Logo Innpulsa" class="img-fluid"></div>
+            <div class="swiper-slide"><img src="assets/img/logos/mintic_logo.png" alt="Logo Innpulsa" class="img-fluid"></div>
+            <div class="swiper-slide"><img src="assets/img/logos/usaid_logo.png" alt="Logo Innpulsa" class="img-fluid"></div>
+            <div class="swiper-slide"><img src="assets/img/logos/pnud.logo.png" alt="Logo Innpulsa" class="img-fluid"></div>
+            <div class="swiper-slide"><img src="assets/img/logos/bid_logo.png" alt="Logo Innpulsa" class="img-fluid"></div>
+            <div class="swiper-slide"><img src="assets/img/logos/sena_logo.png" alt="Logo Innpulsa" class="img-fluid"></div>
           </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="swiper mySwiper-mobile mobile">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="assets/img/logos/innpulsa_logo.png" alt="Logo Innpulsa" class="img-fluid"></div>
+            <div class="swiper-slide"><img src="assets/img/logos/mintrabajo_logo.png" alt="Logo Innpulsa" class="img-fluid"></div>
+            <div class="swiper-slide"><img src="assets/img/logos/mintic_logo.png" alt="Logo Innpulsa" class="img-fluid"></div>
+            <div class="swiper-slide"><img src="assets/img/logos/usaid_logo.png" alt="Logo Innpulsa" class="img-fluid"></div>
+            <div class="swiper-slide"><img src="assets/img/logos/pnud.logo.png" alt="Logo Innpulsa" class="img-fluid"></div>
+            <div class="swiper-slide"><img src="assets/img/logos/bid_logo.png" alt="Logo Innpulsa" class="img-fluid"></div>
+            <div class="swiper-slide"><img src="assets/img/logos/sena_logo.png" alt="Logo Innpulsa" class="img-fluid"></div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
         </div>
       </div>
     </div>
@@ -542,6 +569,8 @@
 
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="assets/js/jquery.rwdImageMaps.js"></script>
 <script src="assets/js/main.js"></script>
 </body>
 </html>
